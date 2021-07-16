@@ -20,6 +20,7 @@ import PagerView from 'react-native-pager-view';
 
 const SceneComponent = require('./SceneComponent');
 const DefaultTabBar = require('./DefaultTabBar');
+const CustomTabBar = require('./CustomTabBar');
 const ScrollableTabBar = require('./ScrollableTabBar');
 
 const AnimatedViewPagerAndroid = Platform.OS === 'android' ?
@@ -31,6 +32,7 @@ const ScrollableTabView = createReactClass({
   mixins: [TimerMixin, ],
   statics: {
     DefaultTabBar,
+    CustomTabBar,
     ScrollableTabBar,
   },
   scrollOnMountCalled: false,

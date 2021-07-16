@@ -96,7 +96,7 @@ const DefaultTabBar = createReactClass({
 
 const styles = StyleSheet.create({
   tab: {
-    flex: 1,
+    // flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
     paddingBottom: 10,
